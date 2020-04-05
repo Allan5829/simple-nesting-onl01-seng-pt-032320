@@ -84,8 +84,15 @@ def adding_matz
         }
      }
 
+<<<<<<< HEAD
     programmer_hash [:yukihiro_matsumoto] = {}
     programmer_hash 
+=======
+    programmer_hash {:yukihiro_matsumoto} = {
+      :known_for,
+      :languages
+    }
+>>>>>>> 6b599bd50fefd5c07714c2318acea55bbae2cf60
 end
 
 def changing_alan
